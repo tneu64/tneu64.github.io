@@ -1,0 +1,69 @@
+h1, h2 {
+    color: rgb(238, 192, 65);
+    font-size: 56px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* margin: 50px; */
+    border: 1px solid black;
+    padding: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    text-shadow: 2px 2px 2px whitesmoke;
+    box-shadow: 5px 5px 5px white;
+
+}
+p {
+    text-align: center;
+    font-family: Helvetica;
+    color: yellow;
+}
+img {
+    height: 320px;
+    border: 5px solid yellow;
+    box-shadow: 2px 2px 2px whitesmoke;
+    
+}
+em {
+    text-transform: uppercase;
+    font-style: initial;
+}
+body {
+    background-color: black;
+    color: yellow;
+}
+#first {
+    text-align: left;
+}
+/* #second {
+    text-align: right; */
+
+.right {
+    text-align: right ;
+}
+.tacos {
+    color: green;
+}
+.big {
+    font-size: 32px;
+}
+p.tacos .big {
+    font-size: 48px;
+}
+.indent {
+    text-align: left;
+    margin-left: 20px;
+}
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+tr {
+    font-size: smaller;
+}
