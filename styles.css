@@ -79,7 +79,8 @@ body {
 }
     /* footer stuff */
     .footer img {
-        width: 75px;
+      height: 55px;  
+      width: 55px;
       }
 
     .footer h4 {
@@ -87,9 +88,8 @@ body {
     }  
 
 /* Forms page */
-.smallpic {
-    width: 540px;
-    height: 475px;
+.smallpic img {
+      border: 3px solid black
 }
 
 
