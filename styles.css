@@ -1,69 +1,95 @@
-h1, h2 {
-    color: rgb(238, 192, 65);
-    font-size: 56px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
-    /* margin: 50px; */
-    border: 1px solid black;
-    padding: 10px;
-    /* padding-left: 10px;
-    padding-right: 10px; */
-    text-shadow: 2px 2px 2px whitesmoke;
-    box-shadow: 5px 5px 5px white;
-
-}
-p {
-    text-align: center;
-    font-family: Helvetica;
-    color: yellow;
-}
-img {
-    height: 320px;
-    border: 5px solid yellow;
-    box-shadow: 2px 2px 2px whitesmoke;
-    
-}
-em {
-    text-transform: uppercase;
-    font-style: initial;
-}
+/* Typography */
 body {
-    background-color: black;
-    color: yellow;
-}
-#first {
-    text-align: left;
-}
-/* #second {
-    text-align: right; */
+    
+    font-family: 'Ubuntu', sans-serif;
+    /* color: white; */
+    background-color:  rgb(228, 228, 228); 
+ 
+  }
+  /* Headers */
+  h1, h2 {
+    font-family: 'Bangers', cursive;
+    color: rgb(233, 203, 32);
+  }
 
-.right {
-    text-align: right ;
-}
-.tacos {
-    color: green;
-}
-.big {
-    font-size: 32px;
-}
-p.tacos .big {
-    font-size: 48px;
-}
-.indent {
-    text-align: left;
-    margin-left: 20px;
-}
-h4 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(233, 203, 32);
 
-}
-table {
-    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* And the "logo" */
+  .navbar-brand {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+  }
+  .navbar-brand img {
+    width: 55px;
+    height: 55px;
+  }
+  .navbar-dark .navbar-brand {
+    color: rgb(235, 216, 48);
+  }
+   
+  
+  /* Jumbotron */
+   .jumbotron {
+    /* Background */
+    background-attachment: scroll;
+    background-image: url(steamlib.png);
+    background-repeat: repeat;
+    background-size: cover;
+  
+    /* Fonts */
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(233, 203, 32);
+    text-shadow: 3px 3px 3px black;
+  }
+  
+  /* Grid columns */
+  .italics {
+      font-style: italic;
+  }
+    
+  .shadows {
+      text-shadow: 2px 2px 2px black;
+  }
 
+  .italicshadows {
+    text-shadow: 1px 1px 1px black;
+    font-style: italic;
+  }
+  
+ 
+  /* Honorable Mentions */  
+
+    /* Table formatting  */
+  .table1 th {
+      font-style: italic;
+      font-family: 'Roboto Mono', monospace;
+  }
+
+  .table1 td {
+      font-family: 'Roboto Mono', monospace;
+  }
+
+/* Misc */
+  .titleoverride {
+    color: white;
+    text-shadow: 3px 3px 3px black;
 }
-tr {
-    font-size: smaller;
+    /* footer stuff */
+    .footer img {
+        width: 75px;
+      }
+
+    .footer h4 {
+        font-family: 'Bangers', cursive;
+    }  
+
+/* Forms page */
+.smallpic {
+    width: 540px;
+    height: 475px;
 }
+
+
